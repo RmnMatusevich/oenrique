@@ -2,7 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="90f8e418-c40f-4942-923b-b546a8fef05a" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/.sass-cache/012d10d1fe5b369a7fd7e888207a1a29b7726e75/main.sassc" beforeDir="false" afterPath="$PROJECT_DIR$/styles/.sass-cache/012d10d1fe5b369a7fd7e888207a1a29b7726e75/main.sassc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/main.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/styles/main.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/main.sass" beforeDir="false" afterPath="$PROJECT_DIR$/styles/main.sass" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -18,8 +22,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="384">
-              <caret line="33" column="36" selection-start-line="33" selection-start-column="36" selection-end-line="33" selection-end-column="36" />
+            <state relative-caret-position="616">
+              <caret line="86" column="26" lean-forward="true" selection-start-line="86" selection-start-column="26" selection-end-line="86" selection-end-column="26" />
             </state>
           </provider>
         </entry>
@@ -27,8 +31,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/styles/main.sass">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="243">
-              <caret line="86" selection-start-line="86" selection-end-line="86" />
+            <state relative-caret-position="248">
+              <caret line="245" column="23" selection-start-line="245" selection-start-column="23" selection-end-line="245" selection-end-column="23" />
             </state>
           </provider>
         </entry>
@@ -36,8 +40,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/styles/main.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="885">
-              <caret line="60" selection-start-line="60" selection-end-line="60" />
+            <state relative-caret-position="555">
+              <caret line="221" selection-start-line="221" selection-end-line="221" />
             </state>
           </provider>
         </entry>
@@ -92,22 +96,6 @@
             <path>
               <item name="Oenrique" type="b2602c69:ProjectViewProjectNode" />
               <item name="Oenrique" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Oenrique" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Oenrique" type="462c0819:PsiDirectoryNode" />
-              <item name="images" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Oenrique" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Oenrique" type="462c0819:PsiDirectoryNode" />
-              <item name="styles" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Oenrique" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Oenrique" type="462c0819:PsiDirectoryNode" />
-              <item name="styles" type="462c0819:PsiDirectoryNode" />
-              <item name="main.sass" type="620a8d5e:NestingTreeNode" />
             </path>
           </expand>
           <select />
@@ -176,18 +164,18 @@
       <updated>1571734182433</updated>
       <workItem from="1571734185259" duration="1022000" />
       <workItem from="1571765052586" duration="2586000" />
-      <workItem from="1571768397228" duration="6450000" />
+      <workItem from="1571768397228" duration="14451000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10058000" />
+    <option name="totallyTimeSpent" value="18059000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16490486" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.021141648" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -253,22 +241,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/styles/main.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="885">
-          <caret line="60" selection-start-line="60" selection-end-line="60" />
+        <state relative-caret-position="555">
+          <caret line="221" selection-start-line="221" selection-end-line="221" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="384">
-          <caret line="33" column="36" selection-start-line="33" selection-start-column="36" selection-end-line="33" selection-end-column="36" />
+        <state relative-caret-position="616">
+          <caret line="86" column="26" lean-forward="true" selection-start-line="86" selection-start-column="26" selection-end-line="86" selection-end-column="26" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/styles/main.sass">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
-          <caret line="86" selection-start-line="86" selection-end-line="86" />
+        <state relative-caret-position="248">
+          <caret line="245" column="23" selection-start-line="245" selection-start-column="23" selection-end-line="245" selection-end-column="23" />
         </state>
       </provider>
     </entry>
