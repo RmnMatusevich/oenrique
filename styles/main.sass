@@ -38,8 +38,7 @@ body
 header
   width: 100%
   height: 800px
-  background-color: #e1e1e1
-  background-image: url(/images/header_bg_image.png)
+  background-image: url(img/header_bg_image.png)
   background-size: cover
   margin-bottom: 110px
 
@@ -264,10 +263,133 @@ main
 
 
 
+.my-skills
+  width: 995px
+  height: 760px
+  margin-left: auto
+  margin-right: auto
+  .my-skills-title
+    width: 235px
+    height: 82px
+    margin-left: auto
+    margin-right: auto
+    padding-top: 117px
+    margin-bottom: 55px
+    .decoration-rectengle
+      @extend %decoration-rectangle
+      margin-left: auto
+      margin-right: auto
+      margin-bottom: 10px
+    .my-skills-main-title
+      @extend %section-title
+      letter-spacing: 6.5px
+      width: 246px
+
+
+.graph
+  width: 995px
+  height: 368px
+  margin-left: auto
+  margin-right: auto
+  .graph-background
+    position: relative
+    width: 949px
+    height: 362px
+    background-color: #fafafa
+    background-image: url(img/wave_bg_stroke.png)
+    float: right
+    .graph-percents
+      margin-top: -32px
+      margin-left: -42px
+      .percent
+        color: #4d4d4d
+        font-family: Asap
+        font-size: 15px
+        font-weight: 400
+        line-height: 63px
+    .graph-skill-wave
+      position: absolute
+      top: -6px
+      left: -32px
+    .graph-dots
+      position: relative
+
+      .dot
+        width: 14px
+        height: 14px
+        border-radius: 7px
+        background-color: black
+        position: absolute
+        &:nth-child(1)
+          left: 90px
+          top: 110px
+        &:nth-child(2)
+          left: 312px
+          top: 172px
+        &:nth-child(3)
+          left: 543px
+          top: 19px
+        &:nth-child(4)
+          left: 745px
+          top: 110px
+
+    .graph-design-instruments
+      position: relative
+
+      .instrument
+        position: absolute
+        &:nth-child(1)
+          left: 82px
+          top: 380px
+        &:nth-child(2)
+          left: 304px
+          top: 380px
+        &:nth-child(3)
+          left: 535px
+          top: 380px
+        &:nth-child(4)
+          left: 737px
+          top: 380px
 
 
 
-
+.portfolio
+  width: 100%
+  height: 1195px
+  background-color: #f6f6f6
+  .portfolio-title
+    width: 256px
+    height: 82px
+    margin-left: auto
+    margin-right: auto
+    padding-top: 117px
+    margin-bottom: 55px
+    .decoration-rectengle
+      @extend %decoration-rectangle
+      margin-left: auto
+      margin-right: auto
+      margin-bottom: 10px
+    .portfolio-main-title
+      @extend %section-title
+  .info-button-load_more
+    display: block
+    width: 190px
+    margin-left: auto
+    margin-right: auto
+    margin-top: 30px
+    .button
+      @extend %button
+      width: 190px
+.photo-collage
+  margin-left: auto
+  margin-right: auto
+  width: 1166px
+  display: grid
+  grid-template-columns: 400px 400px 368px
+  grid-auto-rows: 350px
+  .photo-collage-item
+    &:hover
+      box-shadow: 0 0 37px 12px rgba(0, 0, 0, 0.15)
 
 
 

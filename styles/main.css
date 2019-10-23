@@ -1,4 +1,4 @@
-.main-header .info-button, main .about-me .about-me__info .download-cv {
+.main-header .info-button, main .about-me .about-me__info .download-cv, .portfolio .info-button-load_more .button {
   background-color: rgba(0, 0, 0, 0);
   width: 160px;
   height: 50px;
@@ -8,19 +8,19 @@
   font-size: 16px;
   font-weight: 500;
   text-transform: uppercase; }
-  .main-header .info-button:hover, main .about-me .about-me__info .download-cv:hover {
+  .main-header .info-button:hover, main .about-me .about-me__info .download-cv:hover, .portfolio .info-button-load_more .button:hover {
     box-shadow: 0 18px 27px 2px rgba(0, 0, 0, 0.1);
     background-color: #ffffff;
     border: none;
     transition-delay: 30ms; }
 
-main .about-me .about-me__info .decoration-rectengle, .services .services-title .decoration-rectengle {
+main .about-me .about-me__info .decoration-rectengle, .services .services-title .decoration-rectengle, .my-skills .my-skills-title .decoration-rectengle, .portfolio .portfolio-title .decoration-rectengle {
   width: 60px;
   height: 4px;
   background-color: #212121;
   opacity: 0.6; }
 
-main .about-me .about-me__info .about-me__title, .services .services-title .services-main-title {
+main .about-me .about-me__info .about-me__title, .services .services-title .services-main-title, .my-skills .my-skills-title .my-skills-main-title, .portfolio .portfolio-title .portfolio-main-title {
   opacity: 0.8;
   color: #4d4d4d;
   font-family: "Asap", sans-serif;
@@ -37,8 +37,7 @@ body {
 header {
   width: 100%;
   height: 800px;
-  background-color: #e1e1e1;
-  background-image: url(/images/header_bg_image.png);
+  background-image: url(img/header_bg_image.png);
   background-size: cover;
   margin-bottom: 110px; }
 
@@ -217,5 +216,121 @@ main .about-me {
       font-weight: 500;
       line-height: 49px;
       text-align: center; }
+
+.my-skills {
+  width: 995px;
+  height: 760px;
+  margin-left: auto;
+  margin-right: auto; }
+  .my-skills .my-skills-title {
+    width: 235px;
+    height: 82px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 117px;
+    margin-bottom: 55px; }
+    .my-skills .my-skills-title .decoration-rectengle {
+      margin-left: auto;
+      margin-right: auto;
+      margin-bottom: 10px; }
+    .my-skills .my-skills-title .my-skills-main-title {
+      letter-spacing: 6.5px;
+      width: 246px; }
+
+.graph {
+  width: 995px;
+  height: 368px;
+  margin-left: auto;
+  margin-right: auto; }
+  .graph .graph-background {
+    position: relative;
+    width: 949px;
+    height: 362px;
+    background-color: #fafafa;
+    background-image: url(img/wave_bg_stroke.png);
+    float: right; }
+    .graph .graph-background .graph-percents {
+      margin-top: -32px;
+      margin-left: -42px; }
+      .graph .graph-background .graph-percents .percent {
+        color: #4d4d4d;
+        font-family: Asap;
+        font-size: 15px;
+        font-weight: 400;
+        line-height: 63px; }
+    .graph .graph-background .graph-skill-wave {
+      position: absolute;
+      top: -6px;
+      left: -32px; }
+    .graph .graph-background .graph-dots {
+      position: relative; }
+      .graph .graph-background .graph-dots .dot {
+        width: 14px;
+        height: 14px;
+        border-radius: 7px;
+        background-color: black;
+        position: absolute; }
+        .graph .graph-background .graph-dots .dot:nth-child(1) {
+          left: 90px;
+          top: 110px; }
+        .graph .graph-background .graph-dots .dot:nth-child(2) {
+          left: 312px;
+          top: 172px; }
+        .graph .graph-background .graph-dots .dot:nth-child(3) {
+          left: 543px;
+          top: 19px; }
+        .graph .graph-background .graph-dots .dot:nth-child(4) {
+          left: 745px;
+          top: 110px; }
+    .graph .graph-background .graph-design-instruments {
+      position: relative; }
+      .graph .graph-background .graph-design-instruments .instrument {
+        position: absolute; }
+        .graph .graph-background .graph-design-instruments .instrument:nth-child(1) {
+          left: 82px;
+          top: 380px; }
+        .graph .graph-background .graph-design-instruments .instrument:nth-child(2) {
+          left: 304px;
+          top: 380px; }
+        .graph .graph-background .graph-design-instruments .instrument:nth-child(3) {
+          left: 535px;
+          top: 380px; }
+        .graph .graph-background .graph-design-instruments .instrument:nth-child(4) {
+          left: 737px;
+          top: 380px; }
+
+.portfolio {
+  width: 100%;
+  height: 1195px;
+  background-color: #f6f6f6; }
+  .portfolio .portfolio-title {
+    width: 256px;
+    height: 82px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 117px;
+    margin-bottom: 55px; }
+    .portfolio .portfolio-title .decoration-rectengle {
+      margin-left: auto;
+      margin-right: auto;
+      margin-bottom: 10px; }
+  .portfolio .info-button-load_more {
+    display: block;
+    width: 190px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px; }
+    .portfolio .info-button-load_more .button {
+      width: 190px; }
+
+.photo-collage {
+  margin-left: auto;
+  margin-right: auto;
+  width: 1166px;
+  display: grid;
+  grid-template-columns: 400px 400px 368px;
+  grid-auto-rows: 350px; }
+  .photo-collage .photo-collage-item:hover {
+    box-shadow: 0 0 37px 12px rgba(0, 0, 0, 0.15); }
 
 /*# sourceMappingURL=main.css.map */
