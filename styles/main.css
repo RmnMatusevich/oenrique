@@ -14,13 +14,13 @@
     border: none;
     transition-delay: 30ms; }
 
-main .about-me .about-me__info .decoration-rectengle, .services .services-title .decoration-rectengle, .my-skills .my-skills-title .decoration-rectengle, .portfolio .portfolio-title .decoration-rectengle {
+main .about-me .about-me__info .decoration-rectengle, .services .services-title .decoration-rectengle, .my-skills .my-skills-title .decoration-rectengle, .portfolio .portfolio-title .decoration-rectengle, .contact .contact-title .decoration-rectengle {
   width: 60px;
   height: 4px;
   background-color: #212121;
   opacity: 0.6; }
 
-main .about-me .about-me__info .about-me__title, .services .services-title .services-main-title, .my-skills .my-skills-title .my-skills-main-title, .portfolio .portfolio-title .portfolio-main-title {
+main .about-me .about-me__info .about-me__title, .services .services-title .services-main-title, .my-skills .my-skills-title .my-skills-main-title, .portfolio .portfolio-title .portfolio-main-title, .contact .contact-title .contact-main-title {
   opacity: 0.8;
   color: #4d4d4d;
   font-family: "Asap", sans-serif;
@@ -332,5 +332,76 @@ main .about-me {
   grid-auto-rows: 350px; }
   .photo-collage .photo-collage-item:hover {
     box-shadow: 0 0 37px 12px rgba(0, 0, 0, 0.15); }
+
+.testimonials {
+  width: 100%;
+  height: 700px; }
+
+.results {
+  width: 100%;
+  height: 300px;
+  background-color: #f6f6f6;
+  margin-bottom: 154px; }
+  .results .result-table {
+    padding-top: 50px;
+    width: 78%;
+    height: 183px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: auto;
+    margin-right: auto; }
+    .results .result-table .results-item {
+      width: 190px;
+      height: 183px; }
+      .results .result-table .results-item:nth-child(2) {
+        margin-top: 21px; }
+      .results .result-table .results-item:nth-child(3) {
+        margin-top: 24px; }
+      .results .result-table .results-item:nth-child(4) {
+        margin-top: 16px; }
+      .results .result-table .results-item .results-item--image {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 20px; }
+      .results .result-table .results-item .results-item--count {
+        color: #363636;
+        opacity: 0.9;
+        font-family: "Asap", sans-serif;
+        font-size: 22px;
+        font-weight: 600;
+        line-height: 32px;
+        text-transform: uppercase;
+        text-align: center; }
+      .results .result-table .results-item .results-item--decription {
+        opacity: 0.9;
+        color: #363636;
+        font-family: "Asap", sans-serif;
+        font-size: 22px;
+        font-weight: 500;
+        line-height: 32px;
+        text-transform: uppercase;
+        text-align: center; }
+
+.contact {
+  width: 100%;
+  height: 787px;
+  background-image: url(img/contact_bg.jpg);
+  background-size: cover; }
+  .contact .contact-title {
+    width: 260px;
+    height: 82px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 117px;
+    margin-bottom: 70px; }
+    .contact .contact-title .decoration-rectengle {
+      background-color: white;
+      margin-left: auto;
+      margin-right: auto;
+      margin-bottom: 10px; }
+    .contact .contact-title .contact-main-title {
+      color: white;
+      opacity: 1; }
 
 /*# sourceMappingURL=main.css.map */
