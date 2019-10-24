@@ -14,18 +14,18 @@
 <body>
     <header>
         <nav>
-            <div class="logo">
+            <div class="logo" id="top">
                 <img src="images/logo.svg" id="logo">
                 <div class="logo-name">OENRIQUE</div>
                 <div class="logo-description">UX/UI EXPERT</div>
             </div>
             <div class="main_nav">
                 <ul class="navigation">
-                    <li class="navigation-item"><a href="#" class="navigation-item__link" >Home</a></li>
-                    <li class="navigation-item"><a href="#" class="navigation-item__link">About</a></li>
-                    <li class="navigation-item"><a href="#" class="navigation-item__link">Service</a></li>
-                    <li class="navigation-item"><a href="#" class="navigation-item__link">Portfolio</a></li>
-                    <li class="navigation-item"><a href="#" class="navigation-item__link">Contact</a></li>
+                    <li class="navigation-item"><a href="#top" class="navigation-item__link" >Home</a></li>
+                    <li class="navigation-item"><a href="#about" class="navigation-item__link">About</a></li>
+                    <li class="navigation-item"><a href="#services" class="navigation-item__link">Service</a></li>
+                    <li class="navigation-item"><a href="#port" class="navigation-item__link">Portfolio</a></li>
+                    <li class="navigation-item"><a href="#cont" class="navigation-item__link">Contact</a></li>
                 </ul>
             </div>
         </nav>
@@ -46,7 +46,7 @@
 
     <main>
 
-        <section class="about-me">
+        <section class="about-me" id="about">
             <div class="about-me__info">
                 <div class="decoration-rectengle"></div>
                 <div class="about-me__title"><h2>KNOW MORE ABOUT ME</h2></div>
@@ -56,7 +56,7 @@
             <img class="about-me__photo" src="images/about-me__photo.jpg">
         </section>
 
-        <section class="services">
+        <section class="services" id="services">
             <div class="services-title">
                 <div class="decoration-rectengle"></div>
                 <div class="services-main-title">SERVICES</div>
@@ -125,7 +125,7 @@
                 </div>
             </div>
         </section>
-        <section class="portfolio">
+        <section class="portfolio" id="port">
             <div class="portfolio-title">
                 <div class="decoration-rectengle"></div>
                 <div class="portfolio-main-title">PORTFOLIO</div>
@@ -169,18 +169,22 @@
                 </div>
             </div>
         </section>
-        <section class="contact">
+        <section class="contact" id="cont">
             <div class="contact-title">
                 <div class="decoration-rectengle"></div>
                 <div class="contact-main-title">SAY HELLO!</div>
             </div>
             <form class="contact-form">
                 <div class="contact-info">
-                    <input type="text">
-                    <input type="text">
+                    <input type="text" id="name" placeholder="Name" required>
+                    <input type="email" id="email" placeholder="Email" required>
                 </div>
-                <input type="text">
+                <textarea type="text" id="text" placeholder="Message" required></textarea>
+                <input type="submit" value="SEND " id="submit-button">
             </form>
+            <div class="link-top">
+                <a href="#top"><img class="link-top-image" src="images/link-top.png"></a>
+            </div>
         </section>
         <footer>
 

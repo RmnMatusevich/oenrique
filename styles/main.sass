@@ -87,7 +87,6 @@ nav
     right: 7.3%
     top: 30px
     .navigation-item
-
       color: #4d4d4d
       font-family: Asap, "sans-serif"
       font-size: 16px
@@ -95,9 +94,11 @@ nav
       text-transform: uppercase
       text-decoration: none
       .navigation-item__link
-        height: 23px
+        display: block
+        height: 26px
         color: #4d4d4d !important
         text-decoration: none
+
 
         &:hover
           border-bottom: 2px solid #4d4d4d
@@ -450,6 +451,7 @@ main
   height: 787px
   background-image: url(img/contact_bg.jpg)
   background-size: cover
+  position: relative
   .contact-title
     width: 260px
     height: 82px
@@ -467,3 +469,59 @@ main
       @extend %section-title
       color: white
       opacity: 1
+
+.contact-form
+  width: 770px
+  height: 375px
+  margin-left: auto
+  margin-right: auto
+  .contact-info
+    display: flex
+    justify-content: space-between
+    margin-bottom: 30px
+    #name
+      width: 370px
+      height: 57px
+    #email
+      width: 370px
+      height: 57px
+  #text
+    width: 100%
+    height: 207px
+    font-family: "Asap", sans-serif
+    font-size: 16px
+    font-weight: 400
+    line-height: 67px
+
+  #submit-button
+    @extend %button
+    width: 123px
+    background-color: white
+    border-color: white
+
+
+input[type="text"], input[type="email"]
+  font-family: "Asap", sans-serif
+  font-size: 16px
+  font-weight: 400
+  line-height: 67px
+
+input[type="submit"]
+  background: url(img/send-button.png) no-repeat 80% 50%
+#submit-button
+  margin-left: 42%
+  margin-top: 30px
+
+#text::-moz-placeholder
+  padding-left: 10px
+
+.link-top
+  width: 45px
+  height: 41px
+  background-color: white
+  position: absolute
+  right: 2.2%
+  bottom: 170px
+  .link-top-image
+    width: 40px
+    height: 40px
