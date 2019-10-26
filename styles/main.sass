@@ -110,6 +110,7 @@ nav
   margin-left: 7.3%
   margin-top: 170px
   .header-image
+    display: block
     position: absolute
     right: 7.3%
     top: 100px
@@ -163,7 +164,7 @@ main
         width: 469px
         height: 121px
         color: #4d4d4d
-        font-family: Asap
+        font-family: "Asap", sans-serif
         font-size: 16px
         font-weight: 400
         line-height: 26px
@@ -380,7 +381,7 @@ main
 .photo-collage
   margin-left: auto
   margin-right: auto
-  width: 1166px
+  max-width: 1166px
   display: grid
   grid-template-columns: 400px 400px 368px
   grid-auto-rows: 350px
@@ -644,4 +645,21 @@ input[type="submit"]
 
 
 
-    
+@media (max-width: 1300px)
+  .header-image
+    img
+      display: none
+  .about-me
+    width: 471px
+    .about-me__photo
+      display: none
+
+
+
+@media (max-width: 1210px)
+  .portfolio
+    height: 1600px
+  .photo-collage
+    width: 800px
+    grid-template-columns: 400px 400px
+    grid-auto-rows: 350px 368px
