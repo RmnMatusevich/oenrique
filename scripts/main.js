@@ -1,4 +1,4 @@
-
+//add interactivity to links on the page
 $(document).ready(function(){
     $('a[href^= "#"]').click(function () {
         let elementClick = $(this).attr("href")
