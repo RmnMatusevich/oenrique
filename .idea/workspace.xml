@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="90f8e418-c40f-4942-923b-b546a8fef05a" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/styles/.sass-cache/012d10d1fe5b369a7fd7e888207a1a29b7726e75/main.sassc" beforeDir="false" afterPath="$PROJECT_DIR$/styles/.sass-cache/012d10d1fe5b369a7fd7e888207a1a29b7726e75/main.sassc" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/styles/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/main.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/styles/main.css.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/styles/main.sass" beforeDir="false" afterPath="$PROJECT_DIR$/styles/main.sass" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -28,8 +30,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/styles/main.sass">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="613">
-              <caret line="660" column="15" selection-start-line="660" selection-start-column="15" selection-end-line="660" selection-end-column="15" />
+            <state relative-caret-position="-900">
+              <caret line="579" column="15" lean-forward="true" selection-start-line="579" selection-start-column="15" selection-end-line="579" selection-end-column="15" />
             </state>
           </provider>
         </entry>
@@ -43,7 +45,7 @@
         <entry file="file://$PROJECT_DIR$/styles/main.css">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="735">
-              <caret line="580" lean-forward="true" selection-start-line="580" selection-end-line="580" />
+              <caret line="586" lean-forward="true" selection-start-line="586" selection-end-line="586" />
             </state>
           </provider>
         </entry>
@@ -209,18 +211,18 @@
       <updated>1571734182433</updated>
       <workItem from="1571734185259" duration="1022000" />
       <workItem from="1571765052586" duration="2586000" />
-      <workItem from="1571768397228" duration="52866000" />
+      <workItem from="1571768397228" duration="53555000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="56474000" />
+    <option name="totallyTimeSpent" value="57163000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2473573" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2473573" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -301,7 +303,7 @@
     <entry file="file://$PROJECT_DIR$/styles/main.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="735">
-          <caret line="580" lean-forward="true" selection-start-line="580" selection-end-line="580" />
+          <caret line="586" lean-forward="true" selection-start-line="586" selection-end-line="586" />
         </state>
       </provider>
     </entry>
@@ -310,8 +312,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/styles/main.sass">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="613">
-          <caret line="660" column="15" selection-start-line="660" selection-start-column="15" selection-end-line="660" selection-end-column="15" />
+        <state relative-caret-position="-900">
+          <caret line="579" column="15" lean-forward="true" selection-start-line="579" selection-start-column="15" selection-end-line="579" selection-end-column="15" />
         </state>
       </provider>
     </entry>

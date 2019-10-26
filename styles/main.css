@@ -256,7 +256,7 @@ main .about-me {
       margin-left: -42px; }
       .graph .graph-background .graph-percents .percent {
         color: #4d4d4d;
-        font-family: Asap;
+        font-family: "Asap", sans-serif;
         font-size: 15px;
         font-weight: 400;
         line-height: 63px; }
@@ -575,6 +575,12 @@ input[type="submit"] {
   .photo-collage {
     width: 800px;
     grid-template-columns: 400px 400px;
-    grid-auto-rows: 350px 368px; } }
+    grid-auto-rows: 350px 368px; }
+
+  .link-top {
+    bottom: 150px; } }
+@media (max-width: 1000px) {
+  .my-skills {
+    display: none; } }
 
 /*# sourceMappingURL=main.css.map */
