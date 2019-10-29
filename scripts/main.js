@@ -1,8 +1,12 @@
 //add interactivity to links on the page
-$(document).ready(function(){
-    $('a[href^= "#"]').click(function () {
-        let elementClick = $(this).attr("href")
-        let destination = $(elementClick).offset().top;
-        $("html").animate({scrollTop: destination}, 1000)
+const anchors = document.querySelectorAll('a[href*="#"]');
+for (let anchor of anchors){
+    anchor.addEventListener("click", (event) => {
+        event.preventDefault();
+        const blockID = anchor.getAttribute("href");
+        document.querySelector(""+blockID).scrollIntoView({
+            behavior: "smooth",
+            block: "start"
+        })
     })
-});
+}
